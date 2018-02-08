@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumberGame {
     // this game asks the user to guess the winning number in the range of 1 to 99
     public static void main(String[] args) {
-        // multiply the randomn number by 100 as randon returns a float less than 0, and add 1 to in case it returned 0
+        // multiply the randomn number by 100 as randomn returns a float less than 0, and add 1 to in case it returned 0
         int randomnNumber = (int) (Math.random() * 100) + 1;
         boolean bingo = false;
         // nice for debugging but next line is the spoiler
