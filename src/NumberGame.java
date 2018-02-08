@@ -8,6 +8,7 @@ public class NumberGame {
         boolean bingo = false;
         // nice for debugging but next line is the spoiler
         System.out.print(randomnNumber);
+        
         for (int i = 10; i > 0; i--) {
             System.out.println("You have " + i + " tries left. Guess the number: ");
             Scanner sc = new Scanner(System.in);
