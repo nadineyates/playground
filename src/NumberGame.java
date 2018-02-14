@@ -64,6 +64,7 @@ public class NumberGame {
 	private static int getuserinput(int NumberOfTries) {
 		// Get the input from the user
 		System.out.println("You have " + NumberOfTries + " tries left. Try to guess the number: ");
+		// this should be pulled out of the method right? so I don't keep doing  a new?
 		Scanner sc = new Scanner(System.in); 
 		int inputedGuess = sc.nextInt();
 		return inputedGuess;
